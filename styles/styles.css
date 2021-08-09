@@ -1,7 +1,21 @@
+:root {
+  --heading-font: "Playfair Display", serif;
+  --default-font: "Poppins", sans-serif;
+}
+body {
+  color: #67604a;
+}
+h3 {
+  font-family: var(--heading-font);
+}
 h1 {
-  font-family: "Poppins", sans-serif;
-  color: aqua;
+  font-family: var(--heading-font);
+  font-size: 68px;
 }
 p {
-  font-family: "Playfair Display", serif;
+  font-family: var(--default-font);
+}
+.homepageHero {
+  text-align: center;
+  background-color: #c0cf95;
 }
