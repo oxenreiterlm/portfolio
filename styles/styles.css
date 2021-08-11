@@ -7,6 +7,7 @@ body {
 }
 h3 {
   font-family: var(--heading-font);
+  padding-top: 20px;
 }
 h1 {
   font-family: var(--heading-font);
@@ -14,6 +15,7 @@ h1 {
 }
 p {
   font-family: var(--default-font);
+  padding-bottom: 20px;
 }
 .homepageHero {
   text-align: center;
