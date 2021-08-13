@@ -36,7 +36,7 @@ p {
 }
 .moreWorkDiv {
   text-align: center;
-  margin: 20px;
+  margin: 40px;
 }
 .moreWork {
   text-decoration: none;
@@ -49,4 +49,12 @@ p {
 .workTog {
   display: flex;
   justify-content: center;
+}
+.contactButton {
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid var(--color4);
+  padding: 8px 10px;
+  border-radius: 5px;
+  color: var(--color5);
 }
