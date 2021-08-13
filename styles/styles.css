@@ -32,7 +32,12 @@ p {
   background-color: var(--color5);
 }
 .featPro {
-  margin: 15px;
+  text-align: center;
+}
+.projPics {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
 }
 .moreWorkDiv {
   text-align: center;
@@ -45,6 +50,7 @@ p {
   background-color: var(--color1);
   padding: 8px 10px;
   border-radius: 5px;
+  box-shadow: 4px 4px 3px rgb(219, 217, 217);
 }
 .workTog {
   display: flex;
@@ -57,4 +63,5 @@ p {
   padding: 8px 10px;
   border-radius: 5px;
   color: var(--color5);
+  box-shadow: 4px 4px 3px rgb(219, 217, 217);
 }
