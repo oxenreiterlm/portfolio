@@ -1,11 +1,11 @@
 :root {
   --heading-font: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
-  --color1: #e48e6e;
+  --color1: #ecaf99;
   --color2: #3c3e42;
   --color3: #fff6ad;
   --color4: #719386;
-  --color5: #87a5a6;
+  --color5: #abc0c0;
 }
 body {
   color: var(--color2);
@@ -34,14 +34,21 @@ p {
 .featPro {
   text-align: center;
 }
+
+.picRow {
+  height: 216px;
+}
 .projPics {
-  max-width: 200px;
   display: block;
   margin: 0 auto;
+  max-width: 80%;
+}
+.projDesc {
+  padding-top: 10px;
 }
 .moreWorkDiv {
   text-align: center;
-  margin: 40px;
+  margin: 15px;
 }
 .moreWork {
   text-decoration: none;
@@ -51,10 +58,18 @@ p {
   padding: 8px 10px;
   border-radius: 5px;
   box-shadow: 4px 4px 3px rgb(219, 217, 217);
+  font-family: var(--default-font);
 }
 .workTog {
   display: flex;
   justify-content: center;
+  font-family: var(--default-font);
+  font-weight: bold;
+  margin: 30px;
+}
+.workTogText {
+  line-height: 2.5;
+  text-align: end;
 }
 .contactButton {
   text-decoration: none;
