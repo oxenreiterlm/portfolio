@@ -60,6 +60,11 @@ p {
   box-shadow: 4px 4px 3px rgb(219, 217, 217);
   font-family: var(--default-font);
 }
+.moreWork:hover {
+  opacity: 80%;
+  color: var(--color2);
+  transition: all ease-in-out 100ms;
+}
 .workTog {
   display: flex;
   justify-content: center;
@@ -77,6 +82,11 @@ p {
   border: 1px solid var(--color4);
   padding: 8px 10px;
   border-radius: 5px;
-  color: var(--color5);
+  color: var(--color4);
   box-shadow: 4px 4px 3px rgb(219, 217, 217);
+}
+.contactButton:hover {
+  opacity: 80%;
+  color: var(--color4);
+  transition: all ease-in-out 100ms;
 }
