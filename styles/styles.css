@@ -118,6 +118,7 @@ p {
 .aboutMeDesc {
   line-height: 2;
 }
+
 .profPic {
   max-width: 350px;
   display: flex;
@@ -185,5 +186,8 @@ p {
   }
   .certNames {
     text-align: center;
+  }
+  .certLinks {
+    margin-bottom: 25px;
   }
 }
