@@ -42,8 +42,6 @@ p {
   text-align: center;
 }
 
-.picRow {
-}
 .projPics {
   display: flex;
   margin: 0 auto;
@@ -98,6 +96,13 @@ p {
   opacity: 80%;
   color: var(--color4);
   transition: all ease-in-out 100ms;
+}
+
+.aboutHeading h1 {
+  font-family: var(--heading-font);
+  font-size: 56px;
+  text-align: center;
+  background-color: var(--color5);
 }
 
 @media (max-width: 576px) {
