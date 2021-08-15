@@ -10,11 +10,7 @@
 body {
   color: var(--color2);
 }
-h3 {
-  font-family: var(--heading-font);
-  padding-top: 32px;
-  margin-bottom: 0;
-}
+
 h1 {
   font-family: var(--heading-font);
   font-size: 56px;
@@ -24,6 +20,16 @@ h2 {
   text-align: center;
   font-weight: bold;
 }
+h3 {
+  font-family: var(--heading-font);
+  padding-top: 32px;
+  margin-bottom: 0;
+  text-align: end;
+}
+h4 {
+  font-family: var(--heading-font);
+}
+
 h5 {
   font-family: var(--heading-font);
   padding-top: 10px;
@@ -103,6 +109,41 @@ p {
   font-size: 56px;
   text-align: center;
   background-color: var(--color5);
+}
+.aboutMeDesc {
+  line-height: 2;
+}
+.profPic {
+  max-width: 350px;
+}
+.techIcons {
+  max-width: 68px;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 8px;
+}
+.bootstrapIcon {
+  max-width: 80px;
+}
+.card-title {
+  text-align: center;
+  font-family: var(--default-font);
+  font-size: 18px;
+}
+.certs {
+  text-align: center;
+  padding: 10px;
+}
+.certNames {
+  font-family: var(--default-font);
+  text-align: center;
+  height: 45px;
+}
+.certLinks {
+  max-width: 240px;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
 }
 
 @media (max-width: 576px) {
