@@ -35,6 +35,9 @@ h5 {
   padding-top: 10px;
   padding-bottom: 0;
 }
+.greeting {
+  text-align: center;
+}
 p {
   font-family: var(--default-font);
   padding-bottom: 20px;
@@ -109,12 +112,16 @@ p {
   font-size: 56px;
   text-align: center;
   background-color: var(--color5);
+  padding-top: 32px;
+  padding-bottom: 20px;
 }
 .aboutMeDesc {
   line-height: 2;
 }
 .profPic {
   max-width: 350px;
+  display: flex;
+  margin: 0 auto;
 }
 .techIcons {
   max-width: 68px;
@@ -161,5 +168,22 @@ p {
   }
   .moreWork {
     margin: 0px;
+  }
+  .aboutHeading h1 {
+    font-size: 40px;
+  }
+  .profPic {
+    max-width: 300px;
+  }
+  .aboutMeDesc {
+    text-align: center;
+    padding: 20px;
+  }
+  .techList {
+    text-align: center;
+    padding: 0;
+  }
+  .certNames {
+    text-align: center;
   }
 }
