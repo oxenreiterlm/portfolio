@@ -107,7 +107,7 @@ p {
   transition: all ease-in-out 100ms;
 }
 
-.aboutHeading h1 {
+.subpageHeading h1 {
   font-family: var(--heading-font);
   font-size: 56px;
   text-align: center;
@@ -152,6 +152,13 @@ p {
   display: flex;
   margin: 0 auto;
   padding: 0;
+}
+.workProjPics {
+  display: flex;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-height: 216px;
 }
 
 @media (max-width: 576px) {
