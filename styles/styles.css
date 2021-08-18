@@ -162,6 +162,7 @@ p {
 ul {
   text-align: center;
   margin-top: 20px;
+  padding-inline-start: 0px;
 }
 li {
   list-style-type: none;
