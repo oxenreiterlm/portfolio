@@ -158,6 +158,27 @@ p {
   margin: 0 auto;
   max-height: 216px;
 }
+
+ul {
+  text-align: center;
+  margin-top: 20px;
+}
+li {
+  list-style-type: none;
+  font-family: var(--heading-font);
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.contactLinks {
+  font-family: var(--default-font);
+  font-size: 18px;
+  color: var(--color4);
+}
+.contactLinks:hover {
+  color: var(--color4);
+  opacity: 80%;
+}
 @media (min-width: 577px) {
   .smallScreenImg {
     display: none;
