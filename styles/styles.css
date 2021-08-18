@@ -156,9 +156,12 @@ p {
 .workProjPics {
   display: flex;
   margin: 0 auto;
-  padding-left: 10px;
-  padding-right: 10px;
   max-height: 216px;
+}
+@media (min-width: 577px) {
+  .smallScreenImg {
+    display: none;
+  }
 }
 
 @media (max-width: 576px) {
@@ -196,5 +199,11 @@ p {
   }
   .certLinks {
     margin-bottom: 25px;
+  }
+  .normalScreenImg {
+    display: none;
+  }
+  .workProjPics {
+    margin: 0 auto;
   }
 }
