@@ -203,4 +203,10 @@ p {
   .normalScreenImg {
     display: none;
   }
+  .subpageHeading h1 {
+    font-size: 40px;
+  }
+  .workProjPics {
+    width: 330px;
+  }
 }
