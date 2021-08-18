@@ -7,6 +7,30 @@
   --color4: #719386;
   --color5: #c8d6d6;
 }
+.navigationBar {
+  background-color: var(--color5);
+  height: 40px;
+  padding-top: 28px;
+}
+.navBarName {
+  font-family: var(--default-font);
+  color: var(--color4);
+  font-size: 18px;
+}
+
+.navBarName:hover {
+  color: var(--color4);
+  opacity: 80%;
+}
+.nav-link {
+  font-family: var(--default-font);
+  color: var(--color4);
+  font-size: 18px;
+}
+.nav-link:hover {
+  color: var(--color4);
+  opacity: 80%;
+}
 body {
   color: var(--color2);
 }
@@ -22,7 +46,7 @@ h2 {
 }
 h3 {
   font-family: var(--heading-font);
-  padding-top: 32px;
+  padding-top: 10px;
   margin-bottom: 0;
   text-align: end;
 }
