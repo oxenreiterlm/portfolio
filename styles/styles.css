@@ -8,29 +8,23 @@
   --color5: #c8d6d6;
 }
 .navigationBar {
-  background-color: var(--color5);
   height: 40px;
   padding-top: 28px;
+  padding-bottom: 20px;
 }
 .navBarName {
   font-family: var(--default-font);
-  color: var(--color4);
   font-size: 18px;
 }
 
-.navBarName:hover {
-  color: var(--color4);
-  opacity: 80%;
-}
 .nav-link {
   font-family: var(--default-font);
-  color: var(--color4);
   font-size: 18px;
 }
-.nav-link:hover {
-  color: var(--color4);
-  opacity: 80%;
+.navbar-collapse.collapse.show {
+  background-color: var(--color5);
 }
+
 body {
   color: var(--color2);
 }
@@ -70,6 +64,7 @@ p {
 .homepageHero {
   text-align: center;
   background-color: var(--color5);
+  padding-top: 40px;
 }
 .featPro {
   text-align: center;
@@ -213,6 +208,12 @@ li {
 @media (max-width: 576px) {
   h1 {
     font-size: 40px;
+  }
+  .navigationBar {
+    padding-bottom: 50px;
+  }
+  .homepageHero {
+    padding-top: 60px;
   }
   .workTog {
     text-align: center;
