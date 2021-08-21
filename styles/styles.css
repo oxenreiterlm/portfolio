@@ -241,7 +241,8 @@ li {
     padding: 0;
   }
   .certNames {
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
   .certLinks {
     margin-bottom: 25px;
