@@ -247,6 +247,9 @@ footer {
   .workTogText {
     text-align: center;
   }
+  .footerLinks {
+    margin: 0 10px;
+  }
   .projPics {
     max-width: 80%;
   }
