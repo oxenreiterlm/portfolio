@@ -212,11 +212,9 @@ li {
     font-size: 40px;
   }
   .navigationBar {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
-  .homepageHero {
-    padding-top: 60px;
-  }
+
   .workTog {
     text-align: center;
   }
