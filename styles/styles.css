@@ -133,7 +133,6 @@ p {
   font-size: 56px;
   text-align: center;
   background-color: var(--color5);
-  padding-top: 32px;
   padding-bottom: 20px;
 }
 .aboutMeDesc {
@@ -212,7 +211,7 @@ li {
     font-size: 40px;
   }
   .navigationBar {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   }
 
   .workTog {
@@ -250,6 +249,7 @@ li {
   .normalScreenImg {
     display: none;
   }
+
   .subpageHeading h1 {
     font-size: 40px;
   }
