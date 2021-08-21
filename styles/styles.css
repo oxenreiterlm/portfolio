@@ -60,7 +60,6 @@ h5 {
 }
 p {
   font-family: var(--default-font);
-  padding-bottom: 20px;
   padding-top: 0px;
 }
 .homepageHero {
@@ -190,6 +189,9 @@ li {
   font-size: 22px;
   margin-bottom: 16px;
 }
+.workProjDesc {
+  padding-bottom: 20px;
+}
 
 .contactLinks {
   font-family: var(--default-font);
@@ -199,6 +201,31 @@ li {
 .contactLinks:hover {
   color: var(--color4);
   opacity: 80%;
+}
+footer {
+  margin-top: 40px;
+  padding-top: 10px;
+  font-family: var(--default-font);
+}
+.footerLinks {
+  margin: 0 40px;
+  color: var(--color4);
+}
+.footerEmailLink {
+  color: var(--color4);
+}
+.footerEmailLink:hover {
+  color: var(--color4);
+  opacity: 80%;
+}
+.openSourceLine {
+  background-color: var(--color5);
+  text-align: center;
+  font-size: 12px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 @media (min-width: 577px) {
   .smallScreenImg {
