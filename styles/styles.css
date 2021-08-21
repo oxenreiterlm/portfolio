@@ -203,30 +203,27 @@ li {
   opacity: 80%;
 }
 footer {
-  margin-top: 40px;
   padding-top: 10px;
+  padding-bottom: 10px;
   font-family: var(--default-font);
+  background-color: var(--color5);
 }
 .footerLinks {
   margin: 0 40px;
   color: var(--color4);
 }
+.footerLinks:hover {
+  opacity: 80%;
+}
 .footerEmailLink {
   color: var(--color4);
+  text-decoration: none;
 }
 .footerEmailLink:hover {
   color: var(--color4);
   opacity: 80%;
 }
-.openSourceLine {
-  background-color: var(--color5);
-  text-align: center;
-  font-size: 12px;
-  margin-top: 30px;
-  margin-bottom: 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+
 @media (min-width: 577px) {
   .smallScreenImg {
     display: none;
