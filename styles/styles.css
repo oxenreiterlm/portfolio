@@ -149,7 +149,6 @@ p {
 .profPic {
   max-width: 350px;
   display: flex;
-  margin: 0 auto;
 }
 .techIcons {
   max-width: 68px;
@@ -271,6 +270,7 @@ footer {
   }
   .profPic {
     max-width: 300px;
+    margin: 0 auto;
   }
   .aboutMeDesc {
     text-align: center;
