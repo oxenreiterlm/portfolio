@@ -234,6 +234,20 @@ footer {
   color: var(--color4);
   opacity: 80%;
 }
+.openSource {
+  text-align: center;
+  font-size: 10px;
+  padding-top: 10px;
+  color: var(--color4);
+}
+.openSourceLink {
+  text-decoration: none;
+  color: var(--color4);
+}
+.openSourceLink:hover {
+  color: var(--color4);
+  opacity: 80%;
+}
 
 @media (min-width: 577px) {
   .smallScreenImg {
