@@ -14,6 +14,7 @@
 .navbar-brand {
   display: flex;
   align-items: center;
+  font-family: var(--default-font);
 }
 .navBarName {
   font-family: var(--default-font);
@@ -65,7 +66,12 @@ p {
 .homepageHero {
   text-align: center;
   background-color: var(--color5);
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.projectBody {
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 .featPro {
   text-align: center;
@@ -76,7 +82,8 @@ p {
   margin: 0 auto;
   padding-left: 10px;
   padding-right: 10px;
-  max-height: 216px;
+  max-width: 300px;
+  height: 100%;
 }
 .projDesc {
   padding-top: 0px;
@@ -84,6 +91,7 @@ p {
 .moreWorkDiv {
   text-align: center;
   margin: 15px;
+  margin-top: 35px;
 }
 .moreWork {
   text-decoration: none;
@@ -237,7 +245,12 @@ footer {
   .navigationBar {
     padding-bottom: 40px;
   }
-
+  .homepageHero {
+    padding-bottom: 5px;
+  }
+  h3 {
+    display: none;
+  }
   .workTog {
     text-align: center;
   }
