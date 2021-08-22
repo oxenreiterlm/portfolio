@@ -239,12 +239,18 @@ footer {
 @media (max-width: 576px) {
   h1 {
     font-size: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   .navigationBar {
     padding-bottom: 40px;
   }
   .homepageHero {
     padding-bottom: 5px;
+  }
+  .homepageHero p {
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .greeting {
     display: none;
