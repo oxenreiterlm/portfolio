@@ -170,7 +170,6 @@ p {
 }
 .certNames {
   font-family: var(--default-font);
-  text-align: center;
   height: 45px;
 }
 .certLinks {
