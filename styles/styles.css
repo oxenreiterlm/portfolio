@@ -294,6 +294,10 @@ footer {
   .moreWork {
     margin: 0px;
   }
+  .workProjDesc {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   .aboutHeading h1 {
     font-size: 40px;
   }
