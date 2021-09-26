@@ -176,11 +176,10 @@ p {
 .certNames {
   font-family: var(--default-font);
   height: 45px;
+  text-align: center;
 }
 .certLinks {
   max-width: 240px;
-  display: flex;
-  margin: 0 auto;
   padding: 0;
 }
 .workProjPics {
@@ -253,6 +252,12 @@ footer {
   .smallScreenImg {
     display: none;
   }
+
+  .certNames {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -307,6 +312,7 @@ footer {
   .certNames {
     display: flex;
     justify-content: center;
+    margin-top: 40px;
   }
   .certLinks {
     margin-bottom: 25px;
